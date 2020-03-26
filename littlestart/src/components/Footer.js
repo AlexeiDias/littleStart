@@ -58,7 +58,7 @@ export default class Jumbotron extends Component {
     
     </Col>
     <Col xs={6} md={4}>
-    <a href="https://www.w3schools.com"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
+    <a href="https://www.instagram.com/lilstartdaycare/" target="_blank"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
     <p className="email"><a href="mailto:littlestart@gmail.com">littlestart@gmail.com</a></p>
     <p className="email"><a href="tel:1-415-705-9104">415 - 7059104</a></p>
     </Col>
