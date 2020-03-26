@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import {CardGroup as CardG, Card} from 'react-bootstrap'
-import JoyFlor from "../images/JoyFlor.JPG";
-// import TataZenReading from "../images/TataZenReading.JPG";
+// import JoyFlor from "../images/JoyFlor.JPG";
+import TataZenReading from "../images/TataZenReading.JPG";
 import JoyHelena from "../images/JoyHelena.jpg";
+import JoyBaker from '../images/JoyBaker.JPG';
 import styled from "styled-components";
+import PaiZen from "../images/PaiZen.JPG";
+
 
 const Styles= styled.div`
     .textStyle {
@@ -17,7 +20,7 @@ export default class CardGroups extends Component {
             <Styles>
                 <CardG className="textStyle">
   <Card>
-    <Card.Img variant="top" src={JoyHelena} />
+    <Card.Img variant="top" src={TataZenReading} />
     <Card.Body>
       <Card.Title>Full Time</Card.Title>
       <Card.Text>
@@ -30,7 +33,7 @@ export default class CardGroups extends Component {
     </Card.Footer> */}
   </Card>
   <Card>
-    <Card.Img variant="top" src={JoyFlor} />
+    <Card.Img variant="top" src={PaiZen} />
     <Card.Body>
       <Card.Title>Part-Time</Card.Title>
       <Card.Text>

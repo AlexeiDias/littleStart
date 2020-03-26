@@ -8,9 +8,15 @@ import  rules  from './pages/rules'
 import parentArea from './pages/parentArea'
 import Layout from './components/Layout'
 import NavigationBar from './components/NavigationBar'
-
-
 import  noMatch  from './pages/noMatch'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee, faHeart,  } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faCoffee, faHeart, )
+
+
 
 
 function App() {
