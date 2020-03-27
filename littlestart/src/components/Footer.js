@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Jumbotron as Jumbo, Container, Col, Row, Image} from 'react-bootstrap';
 import styled from "styled-components";
-import Tata from "../images/Tata.jpeg";
+import TataScooter from "../images/TataScooter2.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -48,7 +48,7 @@ export default class Jumbotron extends Component {
                 <Container>
   <Row>
     <Col xs={6} md={4}>
-      <Image className="Image" src={Tata} rounded />
+      <Image className="Image" src={TataScooter} rounded />
     </Col>
     <Col xs={6} md={4}>
       <p className="slogan">

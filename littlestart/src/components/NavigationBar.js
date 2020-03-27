@@ -28,10 +28,10 @@ export default class NavigationBar extends Component {
                        <Nav className='ml-auto'>
                            {/* <Nav.Item><Nav.Link href='/'>Home</Nav.Link></Nav.Item> */}
                            <Nav.Item><Nav.Link href='/about'>About</Nav.Link></Nav.Item>
-                           <Nav.Item><Nav.Link href='/specialEv'>Special Events</Nav.Link></Nav.Item>
-                           <Nav.Item><Nav.Link href='/calendar'>Calendar</Nav.Link></Nav.Item>
+                           {/* <Nav.Item><Nav.Link href='/specialEv'>Special Events</Nav.Link></Nav.Item> */}
+                           {/* <Nav.Item><Nav.Link href='/calendar'>Calendar</Nav.Link></Nav.Item> */}
                            <Nav.Item><Nav.Link href='/rules'>Rules</Nav.Link></Nav.Item>
-                           <Nav.Item><Nav.Link href='/parentArea'>Login</Nav.Link></Nav.Item>
+                           {/* <Nav.Item><Nav.Link href='/parentArea'>Login</Nav.Link></Nav.Item> */}
                        </Nav>
                    </Navbar.Collapse>
                 </Navbar>

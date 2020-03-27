@@ -32,6 +32,7 @@ function App() {
         <Route path="/calendar" component={calendar} />
         <Route path="/rules" component={rules} />
         <Route path="/parentArea" component={parentArea} />
+
         <Route  component={noMatch} />
 
       </Switch>

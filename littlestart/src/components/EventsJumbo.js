@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import {Jumbotron as Jumbo, Container, Card} from 'react-bootstrap';
 // import {container as Container} from 'react-bootstrap';
 import styled from "styled-components";
-import JoyBaker2 from "../images/JoyBaker2.jpg";
+import FamilyProject2 from "../images/FamilyProject2.png";
+
 
 
 const Styles = styled.div`
@@ -17,9 +18,9 @@ const Styles = styled.div`
     }
 
     .Jumbo {
-        background: url(${JoyBaker2}) no-repeat;
+        background: url(${FamilyProject2}) no-repeat;
         background-size: cover;
-        height: 550px;
+        height: 750px;
         margin-top: 1px;
         margin-bottom: 1px;
         padding-left: 100px;

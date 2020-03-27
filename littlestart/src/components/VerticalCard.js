@@ -1,6 +1,6 @@
 import React from 'react'
 import {Card as CardG, Card} from 'react-bootstrap'
-import TrioPlay from "../images/TrioPlay.JPG"
+import AfterProgram from "../images/AfterProgram.jpg"
 import styled from "styled-components";
 import {Image, Container, Row, Col} from 'react-bootstrap';
 
@@ -26,7 +26,7 @@ export default function VerticalCard() {
                 <Row>
                 <Col xs={6} md={4}>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={TrioPlay} />
+                    <Card.Img variant="top" src={AfterProgram} />
                         
                 </Card>
                 </Col>
