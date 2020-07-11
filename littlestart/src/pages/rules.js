@@ -54,7 +54,7 @@ export default class AboutCard extends Component {
     <p>
         01 — Communication is a must!
 All official communication will be made by email to be send to our email: littlestartdaycare@gmail.com
-* In the event where you will disconnect your child from the program, we expect 4 weeks  in advance. You will be requested to pay 2 weeks deposit upon your child’s registration, however we do not charge registrations fee. 
+* In the event where you will disconnect your child from the program, we expect 4 weeks  in advance. You will be requested to pay 2 weeks deposit upon your child’s registration, we charge $100 non refundable registration fee. 
 * You will be provided a year calendar containing all celebrations days off, vacation days and sick days. 
 * In the event of sick or celebration days outside of the agreed calendar schedule you must notify us by email or text message to be send to the phone number we will provide you when you register your child. 
 * Please initially reach out by email to discuss any related child care such as questions about your child’s daily routine, diet, socialization we will be happy to reply within 24 to 48 hours. For further matters we can always schedule a time outside of the care hours, so we can focus better on the meeting and to prize the safety of all children in the daycare. We usually separate 30 minutes per day for special meetings and we do not charge for that.   

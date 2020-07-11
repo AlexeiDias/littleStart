@@ -34,7 +34,7 @@ export default function VerticalCard() {
                  <Col xs={6} md={8}>
                      <h1 className="h1Style" >Before and after school Program</h1>
                         <p className="textStyle">
-                            We accept children up to 6 years old for before and after school program.
+                            We accept children for the before and after school program.
                             Activities to be discussed according the childens need.
                         </p>
                 </Col>

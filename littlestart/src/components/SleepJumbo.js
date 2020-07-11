@@ -50,7 +50,7 @@ export default class SleepJumbo extends Component {
                
 
                 </Jumbo>
-                <Card.Footer className="text-muted footerStyle">We offer movie dinner nights throughut the year, usually on Staturday nights, from 7:00pm to 10:00pm. Children will be watching a movie, have dinner and will have circle time to discuss the movie afterward.</Card.Footer>
+                <Card.Footer className="text-muted footerStyle">We offer movie dinner nights throughut the year, usually on Staturday nights, from 7:00pm to 10:00pm. Children will be watching a movie, have dinner and will have circle time to discuss the movie afterwards.</Card.Footer>
             </Styles>
            
         )

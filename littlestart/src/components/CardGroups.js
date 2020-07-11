@@ -24,8 +24,8 @@ export default class CardGroups extends Component {
     <Card.Body>
       <Card.Title>Full Time</Card.Title>
       <Card.Text>
-          <h6> 3 to 5 days a week from 6:45am to 6:00pm</h6>
-       Our full-time schedule offer breakfast, lunch,  circle time, gardening, quiet time, motor and cognitive activities,afternoon snaak and other outdoor activities.
+          <h6> 3 to 5 days a week from 8:00am to 6:10pm</h6>
+       Our full-time schedule offers breakfast, lunch,  circle time, gardening, quiet time, motor and cognitive activities,afternoon snack and other outdoor activities.
       </Card.Text>
     </Card.Body>
     {/* <Card.Footer>
@@ -38,7 +38,7 @@ export default class CardGroups extends Component {
       <Card.Title>Part-Time</Card.Title>
       <Card.Text>
           <h6>1 to 2 days a week from 8:45am to 6:00pm</h6>
-        Our Part-Time schedule offers breakfast, lunch,  circle time, gardening, quiet time, motor and cognitive activities,afternoon snaak and other outdoor activities.
+        Our Part-Time schedule offers breakfast, lunch, circle time, gardening, quiet time, motor and cognitive activities,afternoon snack and other outdoor activities.
       </Card.Text>
     </Card.Body>
     {/* <Card.Footer>

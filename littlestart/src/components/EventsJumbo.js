@@ -52,7 +52,7 @@ export default class EventsJumbo extends Component {
 
                 </Jumbo>
                 <Card.Footer className="text-muted footerStyle">Special Events for parents and children. 
-                             Special familu projects are usuallu held on Saturdaus from 10:00 to 2:pm. We offer snacks, refreshments, and material for the selected project. At leasdt one adult must accompanu their children. Sapeial Projects Event was created to integrate parents and their children socializing in their childdrens daily environment.</Card.Footer>
+                             Special family projects are usually held on Saturdaus from 10:00 to 2:pm. We offer snacks, refreshments, and material for the selected project. At least one adult must accompany their children. Sapeial Projects Event was created to integrate parents and their children socializing in their childdrens daily environment.</Card.Footer>
             </Styles>
            
         )
