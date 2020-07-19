@@ -1,37 +1,30 @@
 import React, { Component } from 'react'
-import {Jumbotron as Jumbo, Container, Col, Row, Image} from 'react-bootstrap';
+import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
+//import {Jumbotron as Jumbo, Container, Col, Row, Image} from 'react-bootstrap';
 import styled from "styled-components";
 import TataScooter from "../images/TataScooter2.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-
 const Styles = styled.div`
     .Jumbo {
-        background-color: #ff8080;
-        background-size: cover;
+        background: url(${TataScooter}) no-repeat;
+        background-size: ;
+        background-position: 100% 45%;
         height: 550px;
-        margin-top: 50px;
+        margin-top: 0px;
         padding-left: 100px;
-        padding-top: 120px;
-        color: white;
+        padding-top: 50px;
+        color: lightpink;
         font-size: 40px;
         text-align: left;
         }
-    .Image {
-        height: 300px;
-        width: 300px;
-        margin-bottom: 100px;
+        .contact {
+            margin-top:220px
         }
-    .slogan {
+        .email {
         font-size: 30px;
-        padding-top: 120px;
-        /* word-spacing: 30px; */
-    }
-
-    .email {
-        font-size: 25px;
-        padding-top: 75px;
+        padding-top: 0px;
     }
    
 
@@ -43,27 +36,18 @@ export default class Jumbotron extends Component {
     render() {
         return (
             <Styles>
-                <Jumbo  className="Jumbo">
+                <Jumbo fluid className="Jumbo">
                 <div className="overlay">
-                <Container>
-  <Row>
-    <Col xs={6} md={4}>
-      <Image className="Image" src={TataScooter} rounded />
-    </Col>
-    <Col xs={6} md={4}>
-      <p className="slogan">
+                    <Container>
+                    <p>
           You belong here    
           <FontAwesomeIcon icon="heart" />
     </p>
-    
-    </Col>
-    <Col xs={6} md={4}>
-    <a href="https://www.instagram.com/lilstartdaycare/" target="_blank"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
+    <p className="contact">Contact</p>
+    <a className="insta" href="https://www.instagram.com/lilstartdaycare/" target="_blank"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
     <p className="email"><a href="mailto:littlestart@gmail.com">littlestart@gmail.com</a></p>
     <p className="email"><a href="tel:1-415-705-9104">415 - 7059104</a></p>
-    </Col>
-  </Row>
-</Container>
+                    </Container>
                 </div>
                 </Jumbo>
             </Styles>
@@ -71,3 +55,4 @@ export default class Jumbotron extends Component {
         )
     }
 }
+
