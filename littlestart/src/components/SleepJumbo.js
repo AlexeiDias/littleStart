@@ -9,24 +9,14 @@ const Styles = styled.div`
 
     .headerStyle {
         font-size: 30px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .footerStyle {
         font-size: 20px;
     }
 
-    .Jumbo {
-        background: url(${MovieTime}) no-repeat;
-        background-size: cover;
-        height: 550px;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        padding-left: 100px;
-        color: white;
-        font-size: 40px;
-        text-align: left;
-        }
+    
 
 
    
@@ -41,15 +31,14 @@ export default class SleepJumbo extends Component {
             <Styles>
                 
                  <Card.Header className="headerStyle">Movie Nights</Card.Header>
-             <Jumbo fluid className="Jumbo">
-                <div className="overlay">
-                    <Container>
-                        
-                    </Container>
-                </div>
-               
-
-                </Jumbo>
+                 <Card className="bg-dark text-white Joycard">
+  <Card.Img src={MovieTime} alt="Card image" />
+  <Card.ImgOverlay>
+    <Card.Text>
+        
+    </Card.Text>
+  </Card.ImgOverlay>
+</Card>
                 <Card.Footer className="text-muted footerStyle">We offer movie dinner nights throughut the year, usually on Staturday nights, from 7:00pm to 10:00pm. Children will be watching a movie, have dinner and will have circle time to discuss the movie afterwards.</Card.Footer>
             </Styles>
            

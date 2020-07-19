@@ -7,6 +7,9 @@ import SleepJumbo from "../components/SleepJumbo";
 import Footer from "../components/Footer";
 import EventsJumbo from "../components/EventsJumbo";
 import JumboCote from "../components/JumboCote";
+import AboutCard from "../components/AboutCard";
+import Rules from "../pages/rules";
+
 
 
 export default function home() {
@@ -20,6 +23,8 @@ export default function home() {
                 <VerticalCard />
                 <EventsJumbo />
                 <JumboCote />
+                <AboutCard />
+                <Rules />
                 <Footer />
                 
             </h1>

@@ -3,13 +3,12 @@ import {Jumbotron as Jumbo, Container, Card} from 'react-bootstrap';
 // import {container as Container} from 'react-bootstrap';
 import styled from "styled-components";
 import ZenJoyPlay from "../images/ZenJoyPlay.jpg";
-import Footer from "../components/Footer";
 
 
 const Styles = styled.div`
 
     .headerStyle {
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 50px;
     }
 
@@ -17,21 +16,11 @@ const Styles = styled.div`
         font-size: 20px;
     }
 
-    .Jumbo2 {
-        background: url(${ZenJoyPlay}) no-repeat;
-        background-size: cover;
-        height: 550px;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        padding-left: 100px;
-        color: white;
-        font-size: 40px;
-        text-align: left;
-        }
+    
     .imageText {
         font-size: 60px;
         text-align: center;
-        padding-top: 350px;
+        padding-top: 50px;
 
     }
    
@@ -40,7 +29,7 @@ const Styles = styled.div`
 `;
 
 
-export default class AboutCard extends Component {
+export default class Rules extends Component {
     render() {
         return (
             <Styles>
@@ -81,12 +70,13 @@ We count on you to make on time payments. It is important to keep our business u
   <Card.ImgOverlay>
     <Card.Text>
         <p className="imageText">
-        Schedulle a tour visit today.
+        Schedulle a tour visit 
+        today.
          </p>
     </Card.Text>
   </Card.ImgOverlay>
 </Card>
-            <Footer></Footer>
+           
             </Styles>
             
            

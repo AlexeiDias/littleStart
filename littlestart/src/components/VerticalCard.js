@@ -8,7 +8,7 @@ const Styles = styled.div`
 
     .headerStyle {
         font-size: 30px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .footerStyle {

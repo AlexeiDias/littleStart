@@ -6,10 +6,10 @@ import styled from "styled-components";
 const Styles = styled.div`
     .Jumbo {
         background-color: transparent;
-        height: 500px;
-        margin-top: 20px;
+        height: 50px;
+        margin-top: 30px;
         padding-left: 5px;
-        padding-top: 250px;
+        padding-top: 0px;
         color: darkgrey;
         font-size: 30px;
         text-align: center;

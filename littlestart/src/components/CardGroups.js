@@ -12,6 +12,9 @@ const Styles= styled.div`
     .textStyle {
         font-size: 20px;
     }
+    .cardposition {
+      margin-top:30px;
+    }
 
     `;
 export default class CardGroups extends Component {
@@ -19,7 +22,7 @@ export default class CardGroups extends Component {
         return (
             <Styles>
                 <CardG className="textStyle">
-  <Card>
+  <Card className="cardposition">
     <Card.Img variant="top" src={TataZenReading} />
     <Card.Body>
       <Card.Title>Full Time</Card.Title>
