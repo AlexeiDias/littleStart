@@ -8,9 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Styles = styled.div`
     
-        .contact {
-            margin-top:220px
-        }
+        
         .email {
         font-size: 30px;
         padding-top: 0px;

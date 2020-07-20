@@ -11,7 +11,7 @@ const Styles = styled.div`
         .imageText {
         font-size: 50px;
         text-align: center;
-        padding-top: 5px;
+        padding-top: 0px;
 
 
     }

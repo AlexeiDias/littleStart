@@ -9,7 +9,7 @@ const Styles = styled.div`
 
     .headerStyle {
         font-size: 20px;
-        margin-top: 50px;
+        margin-top: 120px;
         font-weight: 300;
         line-height: 1.5;
         
